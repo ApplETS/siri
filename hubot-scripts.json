@@ -1,1 +1,8 @@
-[]
+[
+	"ascii.coffee",
+	"fibonacci.coffee",
+	"kittens.coffee",
+	"news.coffee",
+	"roll.coffee",
+	"xkcd.coffee"
+]
