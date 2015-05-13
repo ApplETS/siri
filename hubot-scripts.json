@@ -1,8 +1,13 @@
 [
-	"ascii.coffee",
+	"aww.coffee", 
+	"catfacts.coffee"
 	"fibonacci.coffee",
+	"github-status.coffee", 
+	"grumpycat.coffee", 
 	"kittens.coffee",
 	"news.coffee",
+	"plus_one.coffee",
 	"roll.coffee",
-	"xkcd.coffee"
+	"shipit.coffee", 
+	"xkcd.coffee",
 ]
