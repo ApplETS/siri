@@ -1,6 +1,6 @@
 [
 	"aww.coffee", 
-	"catfacts.coffee"
+	"catfacts.coffee",
 	"fibonacci.coffee",
 	"github-status.coffee", 
 	"grumpycat.coffee", 
@@ -9,5 +9,5 @@
 	"plus_one.coffee",
 	"roll.coffee",
 	"shipit.coffee", 
-	"xkcd.coffee",
+	"xkcd.coffee"
 ]
