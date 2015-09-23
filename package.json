@@ -20,7 +20,8 @@
     "hubot-scripts": "~2.5.16",
     "hubot": "~2.9.3",
     "cheerio": "",
-    "cleverbot-node": "0.2.1"
+    "cleverbot-node": "0.2.1",
+    "githubot": "0.4.1"
   },
   "engines": {
     "node": "0.10.x"
