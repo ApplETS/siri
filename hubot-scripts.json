@@ -7,5 +7,6 @@
 	"kittens.coffee",
 	"news.coffee",
 	"roll.coffee",
-	"xkcd.coffee"
+	"xkcd.coffee",
+	"cleverbot.coffee"
 ]
