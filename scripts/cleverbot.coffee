@@ -15,10 +15,12 @@
 #   Stephen Price <steeef@gmail.com>
 
 cleverbot = require('cleverbot-node')
+he = require('he')
 
 module.exports = (robot) ->
   c = new cleverbot()
 
+
   robot.respond /c (.*)/i, (msg) ->
     data = msg.match[1].trim()
-    cleverbot.prepare(( -> c.write(data, (c) => msg.send(c.message))))
+    cleverbot.prepare(( -> c.write(data, (c) => msg.send(he.decode(c.message)))))
