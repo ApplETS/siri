@@ -8,5 +8,6 @@
 	"news.coffee",
 	"roll.coffee",
 	"xkcd.coffee",
-	"github-search.coffee"
+	"github-search.coffee",
+	"chuck-norris.coffee"
 ]
