@@ -11,5 +11,6 @@
 	"github-search.coffee",
 	"chuck-norris.coffee",
     "httpcat.coffee",
-    "base64.coffee"
+    "base64.coffee",
+    "hashing.coffee"
 ]
