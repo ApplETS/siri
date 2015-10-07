@@ -10,5 +10,5 @@
 	"xkcd.coffee",
 	"github-search.coffee",
 	"chuck-norris.coffee",
-    "youtrack.coffee"
+    "httpcat.coffee"
 ]
