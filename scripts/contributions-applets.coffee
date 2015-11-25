@@ -1,5 +1,5 @@
 # Description:
-#   Allow Marvin to use programming excuse
+#   Print contributions to ÉTSMobile Android or iOS github project
 #
 # Dependencies:
 #   None
@@ -8,17 +8,17 @@
 #   None
 #
 # Commands:
-#   hubot excuse - Print a random programming excuse
+#   hubot contributions [android|ios]  - Print contributions to ÉTSMobile Android or iOS
 #
 # Notes:
 #   None
 #
 # Author:
-#   Thomas Durand
+#   Thibaut Tauveron
 
 module.exports = (robot) ->
-	robot.respond /contributions/i, (msg) ->
-    	msg.http("https://evening-everglades-7017.herokuapp.com/").get() (err, res, body) ->
+	robot.respond /(contributions) (android|ios)/i, (msg) ->
+    	msg.http("https://evening-everglades-7017.herokuapp.com/"+msg.match[2]).get() (err, res, body) ->
     		if res.statusCode == 404
 	        	msg.send '404 not found'
 	        else
