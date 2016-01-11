@@ -7,5 +7,5 @@ module.exports = (robot) ->
     else
         reponse = res.match[0]        
         array = reponse.split " "    
-        res.send "http://dogr.io/wow/such#{array[1]}/much#{array[2]}/very#{array[3]}.png"
+        res.send "http://dogr.io/wow/such#{array[2]}/much#{array[3]}/very#{array[4]}.png"
     
